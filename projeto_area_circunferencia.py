@@ -4,10 +4,10 @@ from math import pi
 
 
 def circulo (raio):
-  calculo = pi * (raio **2 )
-  print(f'O valor da área é {calculo}m')
+  return pi * float(raio )**2 
 
 
 if __name__ == '__main__':
-  raio = float(input('Informe o valor do raio: '))
-  circulo(raio)
+  raio = float(input('Informe o valor do raio:  '))
+  area = circulo(raio)
+  print(f'A área do círculo é {area}')
