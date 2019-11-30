@@ -9,5 +9,8 @@ def circulo (raio):
 
 if __name__ == '__main__':
   raio = float(input('Informe o valor do raio:  '))
-  area = circulo(raio)
-  print(f'A área do círculo é {area}')
+  if raio < 2:
+    print('É necessário informar o raio do círculo\nSintaxe: area_circulo <raio>')
+  else:
+    area = circulo(raio)
+    print(f'A área do círculo é {area}')
