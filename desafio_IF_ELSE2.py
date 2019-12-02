@@ -3,7 +3,7 @@ def faixa_etaria(idade):
     return 'Menor de idade'
   elif idade in range (18, 65):
       return 'Adulto'
-  elif idade in range (65,101):
+  elif idade in range (65,100):
       return 'Idoso'
   elif idade >= 100:
       return 'Centenária'
@@ -12,5 +12,5 @@ def faixa_etaria(idade):
     
 
 if __name__ == '__main__':
-  for idade in (17, 35, 87, 113, -2):
-    print(f'{idade}: {faixa_etaria(idade)}')
+  idade = float(input('Informe idade: '))
+  print(faixa_etaria(idade))
