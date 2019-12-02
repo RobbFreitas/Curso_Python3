@@ -11,6 +11,11 @@ def faixa_etaria(idade):
       return 'Idade inválida'
     
 
+print(10 * '*')
+print('Faixa etária\nMenor de idade\nAdulto\nIdoso\nCentenária\nIdade inválida')
+print(10 * '*')
+
+
 if __name__ == '__main__':
-  idade = float(input('Informe idade: '))
+  idade = float(input('Informe a idade: '))
   print(faixa_etaria(idade))
