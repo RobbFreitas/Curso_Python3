@@ -14,3 +14,4 @@ for i in range (1, 7):
 else:
   print(f'Não acertou! O número era: {sortear_dado(randint)}')
 
+  
